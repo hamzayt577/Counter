@@ -2,6 +2,7 @@
 const containerDiv = document.querySelector(".container");
 const btnAdd = document.querySelector(".btn-add");
 const btnSubstract = document.querySelector(".btn-substract");
+const resetBtn = document.querySelector(".reset-count");
 const count = document.querySelector(".count");
 
 // Variables
@@ -15,6 +16,11 @@ btnAdd.addEventListener("click", () => {
 
 btnSubstract.addEventListener("click", () => {
   countValue--;
+  count.innerHTML = countValue;
+});
+
+resetBtn.addEventListener("click", () => {
+  countValue = 0;
   count.innerHTML = countValue;
 });
 

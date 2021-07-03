@@ -32,6 +32,18 @@ body {
   cursor: pointer;
 }
 
+.reset-count {
+  background: #e27f0e;
+  border-radius: 11px;
+  padding: 20px 45px;
+  margin-top: 30px;
+  color: #ffffff;
+  display: inline-block;
+  font: normal bold 26px/1 "Open Sans", sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
+
 .count {
   color: #f82500;
   font-size: 100px;

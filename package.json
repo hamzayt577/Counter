@@ -1,0 +1,22 @@
+{
+  "name": "counter-app",
+  "version": "1.0.0",
+  "description": "An app that counts",
+  "main": "script.js",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzayt577/Counter.git"
+  },
+  "author": "Hamza Shaikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamzayt577/Counter/issues"
+  },
+  "homepage": "https://github.com/hamzayt577/Counter#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
